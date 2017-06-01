@@ -40,6 +40,11 @@ body {
     min-height: 50px;
 }
 
+.dropdown-menu {
+    left: 0;
+    right: auto;
+}
+
 .navbar-top-links .dropdown-menu li {
     display: block;
 }
@@ -62,6 +67,8 @@ body {
 .navbar-top-links .dropdown-alerts {
     width: 310px;
     min-width: 0;
+    left: 0;
+    right: auto;
 }
 
 .navbar-top-links .dropdown-messages {
